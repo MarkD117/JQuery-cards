@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-
+// Can also be written as .click(function()
     $("#stream1_btn").on("click", function() {
         $(".stream1").removeClass('highlight_stream');
        $(".stream2").removeClass('highlight_stream');
